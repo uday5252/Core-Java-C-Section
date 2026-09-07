@@ -1,0 +1,27 @@
+
+### 🍕 Scenario: Restaurant Food Menu
+
+A restaurant wants to store the names of **9 food items** available on its menu.
+
+Create a `String` array and store:
+
+```text
+Pizza
+Burger
+Biryani
+Dosa
+Idly
+Pasta
+Noodles
+Sandwich
+Ice Cream
+```
+
+### Tasks
+
+1. Create an array to store the 9 food items.
+2. Store all food names in the array.
+3. Use a **for loop** to display all food items.
+4. Use a **for-each loop** to display all food items.
+5. Display the food item at **index 4**.
+6. Display the **total number of food items**.
