@@ -1,0 +1,36 @@
+3 threads
+1st thread ==> run()
+2nd thread ==> run()
+3rd thread ==> run()
+
+created 3 threads ==> same run()
+
+total balance = 1000
+run()
+{
+	wrote withdraw logic
+}
+1st ==> 300
+2nd ==> 500
+3rd ==> 100
+
+when multiple threads are accessing same run(), then we will get inconsistent output ==> Race Condition
+
+Solution for Race Condition ==> SYNCHRONIZATION
+
+SYNCHORNIZATION is a mechanism / process where java allows only one thread to access the run() instead of allowing multiple threads at a time!
+
+We can achive synchronization in 2 ways:-
+1) using synchronized block 
+2)using synchronized method
+
+Inter Thread Communication
+
+One thread will try to communicate with another thread in order to complete the task.
+
+This can be done using 3 methods:-
+1) wait() 
+2)notify()
+3) notifyAll()
+
+

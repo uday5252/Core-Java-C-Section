@@ -1,0 +1,54 @@
+Interthread Comunncation:-
+one java thread will try to communicate with another java thread in order to complete a task
+
+There are 2 people
+1) Producer ==> produce an item
+2) Consumer ==> consumer will consume the item
+
+producer will produce item no 1
+consumer will consume item no 1
+producer will produce item no 2
+consumer will consume item no 2
+.................................
+
+------------------
+
+------------------
+
+------------------
+
+if status = true ==> producer is producing the item
+if status = false ==> consumer is consuming the item
+
+itemCount = 0
+
+
+
+Deadlock:-
+A deadlock in multithreading is a state where two or more threads are blocked indefinitely because each thread holds a resource (such as a lock or mutex) that another thread needs, forming a circular dependency.
+
+person1 ==> notebook
+person2 ==> pen
+
+
+
+RegisterCourse ==> name, cost
+Cancel Course ==> name, cost
+
+RegisterCourse thread is using name variable
+Cancel course thread is using cost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
